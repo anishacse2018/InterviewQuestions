@@ -1,3 +1,17 @@
+/*
+Given a binary tree where each level represents a floor of a multi storeyed building. 
+Each node represents a house number. Number of nodes is the number of houses on that level. 
+The task is to left rotate the digits of a house number, 
+to have all the house numbers at a level arranged in increasing order.
+                         
+                          256                   256
+                         /   \
+                       537   189          537 918
+                       /  \    \
+                    438   365  167   384 536 716
+
+https://www.geeksforgeeks.org/left-rotate-digits-of-node-values-of-all-levels-of-a-binary-tree-in-increasing-order/
+*/
 
 import java.util.*;
 
@@ -105,3 +119,9 @@ Output:
 12 
 89 -1
 */
+
+/*
+Optimised Code:
+*/
+
+
